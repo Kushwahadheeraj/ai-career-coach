@@ -217,7 +217,7 @@ export default function ResumeBuilder({ initialContent }) {
                   <Input
                     {...register("contactInfo.mobile")}
                     type="tel"
-                    placeholder="+1 234 567 8900"
+                    placeholder="+91 000 000 0000"
                   />
                   {errors.contactInfo?.mobile && (
                     <p className="text-sm text-red-500">
@@ -240,12 +240,12 @@ export default function ResumeBuilder({ initialContent }) {
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-medium">
-                    Twitter/X Profile
+                    GitHub
                   </label>
                   <Input
                     {...register("contactInfo.twitter")}
                     type="url"
-                    placeholder="https://twitter.com/your-handle"
+                    placeholder="https://github.com/your-handle"
                   />
                   {errors.contactInfo?.twitter && (
                     <p className="text-sm text-red-500">
